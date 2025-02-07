@@ -36,6 +36,6 @@ springdoc:
 # External services
 services:
     cetpro-profile:
-        url: ${CETPRO_PROFILE_SERVICE_URL:https://vg-ms-profile-production.up.railway.app/management/api/v1/profile}
+        url: ${CETPRO_PROFILE_SERVICE_URL:https://vg-ms-profile-production-6fff.up.railway.app/management/api/v1/profile}
 
 #Demo Slack
