@@ -12,7 +12,6 @@ import pe.edu.vallegrande.vgmsstudyprogramme.domain.model.StudyProgram;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 @RestController
 @RequestMapping("/common/${api.version}/study-program")
 public class StudyProgramController {
